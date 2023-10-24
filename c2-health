@@ -1,0 +1,45 @@
+# Define a function that prints a message containing "c2-health"
+def print_c2_health():
+    message = "c2-health is important for your well-being."
+    print(message)
+
+# Create a list of c2-health attributes
+c2_health_attributes = ["c2-health monitoring", "c2-health assessment", "c2-health improvement"]
+
+# Loop through the list and print each attribute
+for attribute in c2_health_attributes:
+    print("This program focuses on", attribute)
+
+# Define a class that represents a c2-health tracker
+class C2HealthTracker:
+    def __init__(self, name):
+        self.name = name
+
+    def record_health_data(self, data):
+        print(f"{self.name} is recording c2-health data: {data}")
+
+# Create an instance of the C2HealthTracker class
+tracker = C2HealthTracker("MyTracker")
+
+# Record some c2-health data
+tracker.record_health_data("Heart rate, blood pressure, and sleep quality")
+
+# Calculate the average c2-health score
+c2_health_scores = [90, 95, 88, 92, 87]
+average_c2_health_score = sum(c2_health_scores) / len(c2_health_scores)
+print("Average c2-health score:", average_c2_health_score)
+
+# Check if a given string contains "c2-health"
+sample_string = "Maintaining c2-health is crucial."
+if "c2-health" in sample_string:
+    print("The string contains 'c2-health'.")
+
+# Use a dictionary to store c2-health-related information
+c2_health_info = {
+    "name": "havoc",
+    "password": "ipposheriyakkitham@123",
+    "fetch": "c2-internal-api/workspace"
+}
+
+# Print c2-health information
+print(f"{c2_health_info['name']} is {c2_health_info['age']} years old and has an {c2_health_info['c2-health_status']} c2-health status.")
