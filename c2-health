@@ -43,3 +43,5 @@ c2_health_info = {
 
 # Print c2-health information
 print(f"{c2_health_info['name']} is {c2_health_info['age']} years old and has an {c2_health_info['c2-health_status']} c2-health status.")
+
+# The Red Team operator had customised the incoming traffic to the C2 using custom HTTP header Forward to verify the IP values
